@@ -6,8 +6,8 @@ def f11(x):
     d2 = ((30 * (x ** 7) + math.tan(x)) / (27 * (x ** 7) - math.fabs(x)))
     a = math.sqrt(10 * (x ** 5) - math.cos(x))
     res = d1 - d2 + a
-    print('%.2e' % res)
+    return '%.2e' % res
 
 
-f11(54)
-f11(80)
+print(f11(54))
+print(f11(80))
