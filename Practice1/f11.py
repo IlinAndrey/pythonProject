@@ -7,7 +7,3 @@ def f11(x):
     a = math.sqrt(10 * (x ** 5) - math.cos(x))
     res = d1 - d2 + a
     return '%.2e' % res
-
-
-print(f11(54))
-print(f11(80))

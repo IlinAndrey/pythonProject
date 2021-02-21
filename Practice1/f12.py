@@ -17,7 +17,3 @@ def f12(x):
     else:
         res = (math.cos(x ** 6) - (x ** 8))
         return '%.2e' % res
-
-
-print(f12(124))
-print(f12(195))
