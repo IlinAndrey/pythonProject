@@ -25,5 +25,5 @@ def f21(x):
                     return 8
             elif x[1] == 'xbase':
                 return 6
-        elif x[0] == 1980:
+        elif x[0] == 1988:
             return 5
