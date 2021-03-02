@@ -30,4 +30,3 @@ def f21(x):
                 return 5
 
 
-print(f21([2003, 'gn', 'vala', 2016, 'bison']))

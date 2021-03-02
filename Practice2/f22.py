@@ -10,5 +10,3 @@ def f22(x):
     c <<= 0
     return a + b + c
 
-
-print(hex(f22(0xf29317b3)))
