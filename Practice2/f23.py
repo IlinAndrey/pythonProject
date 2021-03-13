@@ -1,6 +1,3 @@
-import re
-
-
 def f23(x):
     preTable = [[f"{(round((int(i[0].split()[0][:-1])) / 100, 1))}",
                  f"{i[1].split()[1]}",
@@ -14,10 +11,10 @@ def f23(x):
     return table
 
 
-print(f23([
-    ['97%', 'Егор Бичберг', None, None, '26.02.2001', 'bicberg89@yandex.ru'],
-    ['26%', 'Амир Говоший', None, None, '22.03.2004', 'govosij87@yandex.ru'],
-    ['26%', 'Амир Говоший', None, None, '22.03.2004', 'govosij87@yandex.ru'],
-    ['89%', 'Артур Ребичак', None, None, '18.04.2002', 'rebicak3@rambler.ru'],
-    ['92%', 'Мирон Зигий', None, None, '25.06.1999', 'miron28@mail.ru']
-]))
+#print(f23([
+#    ['97%', 'Егор Бичберг', None, None, '26.02.2001', 'bicberg89@yandex.ru'],
+#    ['26%', 'Амир Говоший', None, None, '22.03.2004', 'govosij87@yandex.ru'],
+#    ['26%', 'Амир Говоший', None, None, '22.03.2004', 'govosij87@yandex.ru'],
+#    ['89%', 'Артур Ребичак', None, None, '18.04.2002', 'rebicak3@rambler.ru'],
+#    ['92%', 'Мирон Зигий', None, None, '25.06.1999', 'miron28@mail.ru']
+#]))
