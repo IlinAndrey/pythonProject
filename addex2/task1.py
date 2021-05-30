@@ -5,12 +5,12 @@ def str_to_int(str_s):
 
 # 2.Подсчитать количество различных элементов в последовательности s.
 def count_elem(s):
-    return len(set(s))  # or len(set(input().split()))
+    return len(set(s))
 
 
 # 3.Обратить последовательность s без использования функций.
 def reverse(s):
-    return s[::-1]  # or list(reversed(s))
+    return s[::-1]
 
 
 # 4.Выдать список индексов, на которых найден элемент x в последовательности s.
@@ -20,12 +20,12 @@ def get_index(x, s):
 
 # 5.Сложить элементы списка s с четными индексами.
 def sum_elem_even_index(s):
-    return sum(s[1::2])  # or sum(s[::2])
+    return sum(s[1::2])
 
 
 # 6.Найти строку максимальной длины в списке строк s.
 def find_str_max_len(s):
-    return max(s, key=len)  # or max([len(str) for str in s])
+    return max(s, key=len)
 
 
 
