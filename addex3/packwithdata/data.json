@@ -1,0 +1,26 @@
+{
+  "1": {
+    "name": "Andrew",
+    "lastname": "Ilin",
+    "age": "20"
+  },
+
+  "2": {
+    "name": "Petr",
+    "lastname": "Petrov",
+    "age": "10"
+  },
+
+  "3": {
+    "name": "Ivan",
+    "lastname": "Ivanov",
+    "age": "30"
+  },
+
+
+  "4": {
+    "name": "Vasya",
+    "lastname": "Vasin",
+    "age": "20"
+  }
+}
